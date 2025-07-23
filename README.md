@@ -27,8 +27,11 @@ Predecir si un pasajero sobrevivió a la tragedia del Titanic, utilizando variab
 ```plaintext
 titanic/
 │
-├── titanic.ipynb          # Notebook principal
-├── train.csv              # Dataset de entrenamiento
-├── test.csv               # Dataset de test sin etiquetas
-├── gender_submission.csv  # Ejemplo de submission (formato Kaggle)
-└── README.md              # Documentación del proyecto
+├── data/                         
+        │
+        ├── gender_submission.csv  # Superviencia 
+        ├── train.csv              # Dataset de entrenamiento
+        ├── test.csv               # Dataset de test sin etiquetas
+
+├── titanic.ipynb                  # Notebook principal
+└── README.md                      # Documentación del proyecto
